@@ -28,5 +28,5 @@ while True:
 
     cv2.imshow('img',img)
     cv2.waitKey(10)
-    print "位置：",(x,y,w,h)
+    print ("位置：",(x,y,w,h))
 cv2.destroyAllWindows()
